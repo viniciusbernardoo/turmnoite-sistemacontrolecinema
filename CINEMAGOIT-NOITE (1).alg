@@ -1,13 +1,13 @@
-Algoritmo "CinemaGoIT-Noite"
+Algoritmo "instituto GOIT-Noite"
 // Disciplina   : [Algoritmos]
 // Professor   : Francisco Vichi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Descriï¿½ï¿½o   : Aqui vocï¿½ descreve o que o programa faz! (funï¿½ï¿½o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 24/05/2022
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    codigo,ContVetor,contAssentos, opcao, Filas, Cadeiras:inteiro
-   lugares:vetor[1..10, 1..10] de caractere
+   lugares:vetor[1..10, 1..20] de caractere
    //espelho:vetor[1..10, 1..10] de caractere
    linhas,colunas,Letra:inteiro
    nome,time,assento,continua:caractere
@@ -44,7 +44,7 @@ fimprocedimento
 
 procedimento Menu()
 inicio
-   escreval("      Menu opções")
+   escreval("      Menu opï¿½ï¿½es")
    escreval("=========================")
    EScreval("1 - Cadastro de capacidades")
    escreval("2 - Cadastro de Cliente")
@@ -119,7 +119,7 @@ inicio
          fimse
       fimpara
    fimpara
-   Escreval("Cliente : ", nome, " o seu valor total é : ", contAssentos * preco:5:2)
+   Escreval("Cliente : ", nome, " o seu valor total ï¿½ : ", contAssentos * preco:5:2)
    leia(time)
 fimprocedimento
 
@@ -140,7 +140,7 @@ fimprocedimento
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
    repita
       cabecalho()
       menu()
